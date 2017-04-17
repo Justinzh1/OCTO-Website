@@ -12,9 +12,13 @@
 	    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
 	    <link rel="icon" href="/img/favicon.ico" type="image/gif" sizes="16x16">
 
+        <!-- Bootstrap Paper Theme -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-awusxf8AUojygHf2+joICySzB780jVvQaVCAt1clU3QsyAitLGul28Qxb2r1e5g+" crossorigin="anonymous">
+
 	    <!-- Custom Fonts -->
 	    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 	    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 	    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
 
 	    <!-- Plugin CSS -->
@@ -23,9 +27,13 @@
 	    <!-- Custom CSS -->
 	    <link rel="stylesheet" href="/css/creative.css" type="text/css">
 	    <link rel="stylesheet" href="/css/timeline.css" type="text/css">
+        
+        <link rel="stylesheet" href="../sponsorships/sponsorships.css">
+
+        
 	    <!-- jQuery -->
 	    <script src="/js/jquery.js"></script>
-
+        <script src-"/js/cldnr.min.js"></script>
 	    <!-- Bootstrap Core JavaScript -->
 	    <script src="/js/bootstrap.min.js"></script>
 
@@ -59,16 +67,17 @@
 	                    <li>
 	                        <a class="page-scroll" href="/sponsorships">Sponsorships</a>
 	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="/people">People</a>
-	                    </li>
+                        <li>
+                            <a class="page-scroll" href="/events">Events</a>
+                        </li>
 	                </ul>
 	            </div>
 	            <!-- /.navbar-collapse -->
 	        </div>
 	        <!-- /.container-fluid -->
 	    </nav>
-		<header>
+
+		<!-- <header>
     <div class="header-content">
         <div class="header-content-inner">
             <h1>Sponsorships</h1>
@@ -85,11 +94,11 @@
             <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 text-center">
                 <h2 class="section-heading">Why Sponsor Us?</h2>
                 <p id="about-p">Through the ASUC Office of the CTO, countless students now have the ability to more easily ensure their safety, refine their eating and exercise habits, figure out their future coursework, and to access the plethora of resources that we have available on campus. Currently, we are hard at work to improve campus by adding new features to our software that will boost students' health, wellness, and efficiency. That being said, we would not be able to keep the office running without the help of our sponsors, whose contributions have provided us with much-needed hardware and have covered both server costs and hack-session materials.
-                </p> 
+                </p>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 text-center">
+            <div class="col-lg-8 col-lg-offset-2 col-1sm-8 col-sm-offset-2 text-center">
                 <p id="about-p">Our members have the unique opportunity to hone their software development and graphic design skills and develop quality products from start to finish. Specifically, our members have done everything from iOS, Android, and Backend Django Development to Product Development, Videography, and Poster and Flyer Production. The work they do is viewed by thousands of students and the software that they write gets hundreds of thousands of unique visits and millions of API hits a year. Your generous contribution will support the continued professional development of students at one of the best universities in the country. Moreover, sponsoring our organization ensures that your organization reaps the ample number of benefits associated with partnering with us. These can include personalized info sessions with our members, advertising on our site and branding, and other custom packages, including personalized software tweaks in our own applications to ensure that your company's services are used by Berkeley students. Feel free to click <a href="sponsorships.pdf">here</a> to learn more about our sponsorship program.</p>
             </div>
         </div>
@@ -101,11 +110,55 @@
                 <br><br>
             </div>
         </div>
-        
-        
+
+
     </div>
 
-</section>
+</section> -->
+
+<div class="cover">
+    <img id="photo" src="https://images.pexels.com/photos/159605/journal-book-desk-education-159605.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="">
+    <h1 class="cover-text">Reasons to Sponsor</h1>
+</div>
+
+<div class="points">
+    <div class="row point-container">
+        <div class="col col-sm-3 point-item">
+            <h1>Accessibility</h1>
+            <p>We provides the means for students to ensure their safety,
+            refine their eating and exercise habbits, figure out their future courwork, and
+            access a plethora of resources.</p>
+
+        </div>
+        <div class="col col-sm-3 point-item">
+            <h1>Diversity</h1>
+            <p>Our members have worked with everything from iOS, Android, and Backend Django Development
+            to Product Development, Videography, Poster, and Flyer Production.</p>
+        </div>
+        <div class="col col-sm-3 point-item">
+            <h1>Audience</h1>
+            <p>Our work is viewe by thousands of students and the software gets hundreds of thousands
+            of unqiue vistis and millions of API hits a year</p>
+        </div>
+    </div>
+    <div class="row info-point">
+        <div class="container">
+            <p> Interested in becoming a sponsor? Send us an email at <a href="mailto:technology@asuc.org">technology@asuc.org.</a></p>
+        </div>
+    </div>
+</div>
+
+<div class="sponsor">
+    <div class="container">
+        <div class="sponsor-header">
+            <h1>Alumni <small class="subheader">Internships and FullTime Positions</small></h1>
+        </div>
+        <div class="sponsor-container">
+            <img id="sponsor" src="/img/sponsors.png" alt="">
+        </div>
+    </div>
+</div>
+
 
 		<!-- Footer -->
 	    <footer class="bg-dark">
@@ -147,13 +200,13 @@
 	    </footer>
 	    <!-- Plugin JavaScript -->
 	    <script src="/js/jquery.easing.min.js"></script>
-	    <script src="/js/sweetalert.min.js"></script> 
+	    <script src="/js/sweetalert.min.js"></script>
 	    <script src="/js/jquery.fittext.js"></script>
 	    <script src="/js/wow.min.js"></script>
 
 	    <!-- Custom Theme JavaScript -->
 	    <script src="/js/creative.js"></script>
 
-		
+
 	</body>
 </html>

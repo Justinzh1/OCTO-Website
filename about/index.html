@@ -2,7 +2,7 @@
 layout: default
 title: "About"
 ---
-<header>
+<!-- <header>
     <div class="header-content">
         <div class="header-content-inner">
             <h1>About Us</h1>
@@ -18,10 +18,46 @@ title: "About"
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 text-center">
                 <h2 class="section-heading">What we do</h2>
-                <p id="about-p">The Office of the CTO was created in the Spring of 2015 in order to provide the general Berkeley community with access to more on-campus technology resources. Since our inception, we have been able to provide our fellow Bears with quality software products. Starting with just a handful of developers and a single Mobile Application that was available only on iOS, we have grown to a full-fledged division of the ASUC with over 30 talented members. Our Office currently has three products: Berkeley Mobile, BerkeleyTime, and Project Hermione. Our staff handles everything from Android, iOS, and Backend development to Marketing and Product Management. You can see the products that we currently have in production <a href="/projects">here</a>. Interested in seeing our schedule? Check out <a href="https://calendar.google.com/calendar/embed?src=asuc.org_hq9ink7h6vfdsamvj5j22diock%40group.calendar.google.com&ctz=America/Los_Angeles">this calendar</a>. Want to join our office? Learn about our recruitment process <a href="/recruitment">here</a>. 
+                <p id="about-p">The Office of the CTO was created in the Spring of 2015 in order to provide the general Berkeley community with access to more on-campus technology resources. Since our inception, we have been able to provide our fellow Bears with quality software products. Starting with just a handful of developers and a single Mobile Application that was available only on iOS, we have grown to a full-fledged division of the ASUC with over 30 talented members. Our Office currently has three products: Berkeley Mobile, BerkeleyTime, and Project Hermione. Our staff handles everything from Android, iOS, and Backend development to Marketing and Product Management. You can see the products that we currently have in production <a href="/projects">here</a>. Interested in seeing our schedule? Check out <a href="https://calendar.google.com/calendar/embed?src=asuc.org_hq9ink7h6vfdsamvj5j22diock%40group.calendar.google.com&ctz=America/Los_Angeles">this calendar</a>. Want to join our office? Learn about our recruitment process <a href="/recruitment">here</a>.
             </div>
         </div>
-        
     </div>
+</section> -->
 
-</section>
+<div class="cover">
+    <img id="photo" src="https://images.pexels.com/photos/206756/pexels-photo-206756.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="">
+    <h1 class="cover-text">What is Octo?</h1>
+</div>
+
+<div class="mission">
+    <div class="container">
+        <p id="about-p">The Office of the CTO was created in the Spring of 2015 in order to provide the general Berkeley community with access to more on-campus technology resources. Since our inception, we have been able to provide our fellow Bears with quality software products. Starting with just a handful of developers and a single Mobile Application that was available only on iOS, we have grown to a full-fledged division of the ASUC with over 30 talented members. Our Office currently has three products: Berkeley Mobile, BerkeleyTime, and Project Hermione. Our staff handles everything from Android, iOS, and Backend development to Marketing and Product Management. You can see the products that we currently have in production <a href="/projects">here</a>. Interested in seeing our schedule? Check out <a href="https://calendar.google.com/calendar/embed?src=asuc.org_hq9ink7h6vfdsamvj5j22diock%40group.calendar.google.com&ctz=America/Los_Angeles">this calendar</a>. Want to join our office? Learn about our recruitment process <a href="/recruitment">here</a>.
+    </div>
+</div>
+
+<div class="members">
+    <div class="container">
+        <div class="members-header">
+            <h1>Members</h1>
+            <div class="members-info">
+                <p>OCTO brings together the brightest minds who are passionate about bringing about change in the UC Berkeley Community by working with a diverse group of people of various backgrounds.</p>
+            </div>
+        </div>
+        <div class="members-items">
+            {% for member in site.data.members %}
+                <div class="member-item-container">
+                    <div class="item-text">
+                        <p> {{member.First}} {{member.Last}}</p>
+                        {% assign email = "mailto:" | append: member.Email %}
+                        <p> {{member.Position}}</p>
+                        <!-- <a id="linkStyle" href={{email}}>
+                            <p id="noStyle"> {{member.Email}}</p>
+                        </a> -->
+                    </div>
+                    <div class="item-overlay"></div>
+                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

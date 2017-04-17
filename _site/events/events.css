@@ -1,0 +1,31 @@
+.nav-filler {
+    background-color: #003262;
+    width: 100%;
+    height: 64px;
+}
+
+.header-text {
+    font-family: 'roboto';
+    font-size: 44px !important;
+    font-weight: 500;
+}
+
+.events {
+    height:300px;
+}
+
+.events-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.events-header h1 {
+    margin: 0;
+}
+
+.subheader {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 0;
+}
