@@ -1,0 +1,11 @@
+@media (min-width: 600px) {
+  .desktop-visible { display: block; }
+}
+
+@media (max-width: 600px) {
+  .desktop-visible { display: none; }
+}
+
+#about-p{
+    text-align: left;
+}
