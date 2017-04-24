@@ -70,8 +70,6 @@
 
 .item-text p:first-child {
     font-weight: 500;
-    box-shadow: 0 2px white;
-    margin-bottom: 6px;
 }
 
 .member-item-container {
