@@ -1,0 +1,174 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    max-width: 300px;
+    border-color: #3B7EA1;
+    border-width: 5px;
+}
+
+hr.light {
+    border-color: #fff;
+}
+
+.float_center {
+	float: right;
+	position: relative;
+	left: -50%;
+	text-align: left;
+}
+
+.float_center > .child {
+	
+}
+
+section {
+	padding: 0;
+}
+
+#nav-links {
+	position: absolute;
+	top: 0;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar {
+	background-color: transparent;
+	border-bottom-width: 2px;
+	margin-bottom: 0px;
+}
+
+.navbar-nav li {
+    float: none;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+#main_nav {
+	height: 40px;
+}
+
+header .header-content {
+	margin: 0px;
+	height: 100px;
+	width: 100vw;
+	color: #ffffff;
+	text-align: center;
+}
+
+header .header-content .header-content-inner {
+	position: relative;
+}
+
+header .header-content .header-content-inner hr {
+}
+
+header h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 200px;
+	font-weight: bolder;
+	letter-spacing: 10px;
+}
+
+header p {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+#OCTO_header {
+	background: url("https://static.pexels.com/photos/30732/pexels-photo-30732.jpg");
+	background-size: 100vw auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+
+#about_us_spacer {
+	background: url("http://www.intrawallpaper.com/static/images/cool-background.jpg");
+	
+}
+
+.spacer {
+	background: url("http://www.intrawallpaper.com/static/images/abstract-mosaic-background.png");
+	background-size: 100vw auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 300px;
+}
+
+.info-block {
+	margin: 50px;
+	background-color: #ffffff;
+}
+
+.info-block h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 44px;
+	font-weight: 500;
+	margin-bottom: 40px;
+}
+
+.info-block p {
+	font-size: 18px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+
+.btn {
+    border: 0 none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-default {
+    background: #0099cc;
+    color: #ffffff;
+}
+ 
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background: #33a6cc;
+}
+ 
+.btn-default:active, .btn-default.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.btn.outline {
+	background: none;
+}
+
+.btn-default.navbar-btn.outline {
+	border: 2px solid #ffffff;
+	color: #ffffff;
+}
+
+.btn-default.outline {
+	border: 3px solid #3B7EA1;
+	color: #3B7EA1;
+}
+
+.btn-default.outline:hover, .btn-default.outline:focus, .btn-default.outline:active, .btn-default.outline.active, .open > .dropdown-toggle.btn-default {
+	color: #ffffff;
+	background: #FDB515;
+	border-color: #FDB515;
+}
+
+.btn-default.outline:active, .btn-default.outline.active {
+	border-color: #007299;
+	color: #007299;
+	box-shadow: none;
+}
