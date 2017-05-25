@@ -30,6 +30,12 @@
     display: inline-block;
 }
 
+.point-item h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
 .point-container {
     text-align: center;
     padding: 40px 0;
@@ -54,6 +60,11 @@
     font-size: 36px
 }
 
+.header-text {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .sponsor-header {
     text-align: center;
 }
@@ -64,7 +75,7 @@
 }
 
 #sponsor {
-    width: 900px;
+    width: 600px;
     max-width: 80vw;
     height: auto;
 }
@@ -76,4 +87,20 @@
 
 .info-point {
     padding-bottom: 40px;
+}
+
+.header-content {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.header-content-inner h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'roboto';
+    font-size: '65px';
 }

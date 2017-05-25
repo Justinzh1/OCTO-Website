@@ -23,8 +23,23 @@ hr.light {
 	
 }
 
+#octo {
+	position: relative;
+	z-index: 9999;
+}
+
+#octo:hover {
+	color: white;
+}
+
 section {
 	padding: 0;
+}
+
+.section-heading {
+	font-weight: 600;
+	padding-bottom: 30px;
+	margin-bottom: 0 !important;
 }
 
 #nav-links {
@@ -67,6 +82,10 @@ header .header-content .header-content-inner {
 	position: relative;
 }
 
+.header-content-inner p {
+	font-weight: normal;
+}
+
 header .header-content .header-content-inner hr {
 }
 
@@ -84,7 +103,7 @@ header p {
 
 #OCTO_header {
 	background: url("https://static.pexels.com/photos/30732/pexels-photo-30732.jpg");
-	background-size: 100vw auto;
+	background-size: auto 120vh;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	min-height: 100vh;
@@ -171,4 +190,12 @@ header p {
 	border-color: #007299;
 	color: #007299;
 	box-shadow: none;
+}
+
+#our-sponsors { 
+	padding: 40px !important;
+}
+
+#join_the_team {
+	padding: 40px !important;
 }

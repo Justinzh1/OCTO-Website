@@ -11,9 +11,8 @@
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 50)
+            scrollTop: ($($anchor.attr('href')).offset().top - 100)
         }, 1250, 'easeInOutExpo');
-        event.preventDefault();
     });
 
     // Highlight the top nav as scrolling occurs
@@ -28,17 +27,18 @@
     });
 
     // Fit Text Plugin for Main Header
-    $("h1").fitText(
-        1.2, {
-            minFontSize: '35px',
-            maxFontSize: '65px'
-        }
-    );
+    // $("h1").fitText(
+    //     1.2, {
+    //         minFontSize: '35px',
+    //         maxFontSize: '65px'
+    //     }
+    // );
 
     // Offset for Main Navigation
     $('#mainNav').affix({
         offset: {
-            top: 100
+            top: 100,
+            left: 0
         }
     })
 

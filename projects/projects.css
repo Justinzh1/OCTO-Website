@@ -9,3 +9,29 @@
 #about-p{
     text-align: left;
 }
+
+.projects {
+  padding: 50px 100px !important;
+}
+
+.project-item {
+  margin-bottom: 80px;
+}
+
+.project-item h1 {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.item-summary {
+  padding: 0px 20px;
+}
+
+.item-image {
+  margin-bottom: 40px;
+}
+
+.product-page {
+  padding: 80px 0px;
+}

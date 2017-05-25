@@ -1,46 +1,46 @@
-First,Last,Team,Position,Year,Mentor,Email
-Apollo ,Jain,Administrative,Chief Technology Officer,4,,apollojain@berkeley.edu
-Revati,Kapshikar,Administrative,Deputy Chief Technology Officer,3,,rkapshikar@berkeley.edu
-Maya,Reddy,Berkeley Mobile,Chief Engineer,4,,balapuri@berkeley.edu
-Akilesh,Bapu,Berkeley Mobile,iOS Lead,2,,akilesh@berkeley.edu
-Sampath,Duddu,Berkeley Mobile,iOS Developer,3,,duddus@berkeley.edu
-Dennis,Moon,Berkeley Mobile,iOS Developer,3,,bohuim@berkeley.edu
-Michael,Eliot,Berkeley Mobile,iOS Developer,,,michael.eliot@berkeley.edu
-Ankit,Patel,Berkeley Mobile,Android Lead,3,,ankit.patel@berkeley.edu
-Victor,Ngo,Berkeley Mobile,Android Developer,3,,vngo408@berkeley.edu
-Jason,Gao,Berkeley Mobile,Android Developer,4,,jlg@berkeley.edu
-Sneha,Sankavaram,Berkeley Mobile,Backend Lead,4,,snehasankavaram@berkeley.edu
-Adeel,Cheema,Berkeley Mobile,Backend Developer,,,acheema@berkeley.edu
-Alex,Bondarenko,Berkeley Mobile,Product Manager,1,,abondarenko@berkeley.edu
-Alex,Thomas,Berkeley Mobile,Android Developer,1,,alexthomas@berkeley.edu
-Karen ,Tu,Berkeley Mobile,Backend Developer,1,,karentu@berkeley.edu
-Paige ,Pratt,Berkeley Mobile,Backend Developer,3,,paige.pratt@berkeley.edu
-Kaiwen,Zhou,Berkeley Mobile,Android Developer,2,,kaiwenzhou@berkeley.edu
-Laura ,Harker,Berkeleytime,Chief Engineer,,,lharker@berkeley.edu
-Eric ,Huynh,Berkeleytime,Backend Lead,4,,ericehhuynh@berkeley.edu
-Arvind,Iyengar,Berkeleytime,Backend Developer,2,,arvindiyengar@berkeley.edu
-Tony,Situ,Berkeleytime,Backend Developer,3,,c2tonyc2@berkeley.edu
-Sandy,Zhang,Berkeleytime,Backend Developer,3,,sandy@berkeley.edu
-Kelvin,Leong,Berkeleytime,Backend Developer,4,,kelvin.leong@berkeley.edu
-Justin,Lu,Berkeleytime,Backend Developer,2,,justinlu@berkeley.edu
-Flora,Xue,Berkeleytime,Backend Developer,2,,xuezhenruo@berkeley.edu
-Scott,Lee,Berkeleytime,Frontend Lead,1,,scott.lee.3898@berkeley.edu
-Parsa,Attari,Berkeleytime,Frontend Developer,3,,parsa.attari@berkeley.edu
-Kevin,Jiang,Berkeleytime,Frontend Developer,2,,kevin.jiang@berkeley.edu
-Kimya,Khoshnan,Berkeleytime,Product Manager,4,,kimyakhoshnan@berkeley.edu
-Vaibhav,Srikaran,Berkeleytime,Product Manager,3,,srikaran@berkeley.edu
-Dibyo,Majumdar,Project Hermione,Chief Engineer,4,,dibyo.majumdar@berkeley.edu
-Vignesh,Muruganatham,Project Hermione,Engineer,3,,muruvig@berkeley.edu
-Kairui,Zeng,Project Hermione,Product Manager,2,,kairuizeng@berkeley.edu
-Richard ,Liu,Project Hermione,Staff Engineer,1,,richard.liu@berkeley.edu
-Zheng ,Zhu,Project Hermione,Staff Engineer,4,,zhengzhu@berkeley.edu
-Arman,Madani,Digital Services,Product Manager,4,,arman.madani@berkeley.edu
-Alex,Rakeman,Digital Services,Chief Engineer,2,,arakeman@berkeley.edu
-Ashley,Nguyen,Digital Services,Staff Engineer,1,,ashley.nguyen27@berkeley.edu
-Hannah,He,Digital Services,Staff Engineer,3,,hahe@berkeley.edu
-Trey ,Lowerison,Digital Services,Staff Engineer,2,,tlowerison@berkeley.edu
-Isabelle ,Ju,Digital Services,Staff Engineer,1,,iju@berkeley.edu
-Juno ,Morey,Digital Services,Staff Engineer,3,,j.morey@berkeley.edu
-Justin ,Zhong,User Experience,Chief Engineer,2,,justin.zhong@berkeley.edu
-Alan,Rosenthal,User Experience,Staff Designer,1,,amroenthal@berkeley.edu
-Alex,Kierlanczyk,User Experience,Staff Designer,3,,alkierlan@berkeley.edu
+First,Last,Team,Position,Year,Mentor,Email,Picture
+Apollo,Jain,Administrative,Chief Technology Officer,4,a,apollojain@berkeley.edu,none
+Revati,Kapshikar,Administrative,Deputy Chief Technology Officer,3,a,rkapshikar@berkeley.edu,jpg
+Maya,Reddy,Berkeley Mobile,Chief Engineer,4,a,balapuri@berkeley.edu,jpg
+Akilesh,Bapu,Berkeley Mobile,iOS Lead,2,a,akilesh@berkeley.edu,png
+Sampath,Duddu,Berkeley Mobile,iOS Developer,3,a,duddus@berkeley.edu,none
+Dennis,Moon,Berkeley Mobile,iOS Developer,3,a,bohuim@berkeley.edu,jpg
+Michael,Eliot,Berkeley Mobile,iOS Developer,a,a,michael.eliot@berkeley.edu,jpg
+Ankit,Patel,Berkeley Mobile,Android Lead,3,a,ankit.patel@berkeley.edu,none
+Victor,Ngo,Berkeley Mobile,Android Developer,3,a,vngo408@berkeley.edu,none
+Jason,Gao,Berkeley Mobile,Android Developer,4,a,jlg@berkeley.edu,none
+Sneha,Sankavaram,Berkeley Mobile,Backend Lead,4,a,snehasankavaram@berkeley.edu,jpg
+Adeel,Cheema,Berkeley Mobile,Backend Developer,a,a,acheema@berkeley.edu,jpg
+Alex,Bondarenko,Berkeley Mobile,Product Manager,1,a,abondarenko@berkeley.edu,none
+Alex,Thomas,Berkeley Mobile,Android Developer,1,a,alexthomas@berkeley.edu,none
+Karen,Tu,Berkeley Mobile,Backend Developer,1,a,karentu@berkeley.edu,jpg
+Paige,Pratt,Berkeley Mobile,Backend Developer,3,a,paige.pratt@berkeley.edu,none
+Kaiwen,Zhou,Berkeley Mobile,Android Developer,2,a,kaiwenzhou@berkeley.edu,none
+Laura,Harker,Berkeleytime,Chief Engineer,a,a,lharker@berkeley.edu,none
+Eric,Huynh,Berkeleytime,Backend Lead,4,a,ericehhuynh@berkeley.edu,none
+Arvind,Lyengar,Berkeleytime,Backend Developer,2,a,arvindiyengar@berkeley.edu,jpg
+Tony,Situ,Berkeleytime,Backend Developer,3,a,c2tonyc2@berkeley.edu,jpg
+Sandy,Zhang,Berkeleytime,Backend Developer,3,a,sandy@berkeley.edu,jpg
+Kelvin,Leong,Berkeleytime,Backend Developer,4,a,kelvin.leong@berkeley.edu,jpg
+Justin,Lu,Berkeleytime,Backend Developer,2,a,justinlu@berkeley.edu,jpg
+Flora,Xue,Berkeleytime,Backend Developer,2,a,xuezhenruo@berkeley.edu,jpg
+Scott,Lee,Berkeleytime,Frontend Lead,1,a,scott.lee.3898@berkeley.edu,jpg
+Parsa,Attari,Berkeleytime,Frontend Developer,3,a,parsa.attari@berkeley.edu,jpg
+Kevin,Jiang,Berkeleytime,Frontend Developer,2,a,kevin.jiang@berkeley.edu,none
+Kimya,Khoshnan,Berkeleytime,Product Manager,4,a,kimyakhoshnan@berkeley.edu,none
+Vaibhav,Srikaran,Berkeleytime,Product Manager,3,a,srikaran@berkeley.edu,png
+Dibyo,Majumdar,Project Hermione,Chief Engineer,4,a,dibyo.majumdar@berkeley.edu,jpg
+Vignesh,Muruganatham,Project Hermione,Engineer,3,a,muruvig@berkeley.edu,none
+Kairui,Zeng,Project Hermione,Product Manager,2,a,kairuizeng@berkeley.edu,none
+Richard,Liu,Project Hermione,Staff Engineer,1,a,richard.liu@berkeley.edu,jpg
+Zheng,Zhu,Project Hermione,Staff Engineer,4,a,zhengzhu@berkeley.edu,jpg
+Arman,Madani,Digital Services,Product Manager,4,a,arman.madani@berkeley.edu,none
+Alex,Rakeman,Digital Services,Chief Engineer,2,a,arakeman@berkeley.edu,jpg
+Ashley,Nguyen,Digital Services,Staff Engineer,1,a,ashley.nguyen27@berkeley.edu,jpg
+Hannah,He,Digital Services,Staff Engineer,3,a,hahe@berkeley.edu,jpg
+Trey,Lowerison,Digital Services,Staff Engineer,2,a,tlowerison@berkeley.edu,jpg
+Isabelle,Ju,Digital Services,Staff Engineer,1,a,iju@berkeley.edu,none
+Juno,Morey,Digital Services,Staff Engineer,3,a,j.morey@berkeley.edu,none
+Justin,Zhong,User Experience,Chief Engineer,2,a,justin.zhong@berkeley.edu,jpg
+Alan,Rosenthal,User Experience,Staff Designer,1,a,amroenthal@berkeley.edu,none
+Alex,Kierlanczyk,User Experience,Staff Designer,3,a,alkierlan@berkeley.edu,none

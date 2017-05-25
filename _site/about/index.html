@@ -10,7 +10,7 @@
 		</style>
 		<!-- Bootstrap Core CSS -->
 	    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
-	    <link rel="icon" href="/img/favicon.ico" type="image/gif" sizes="16x16">
+	    <link rel="icon" href="/img/favicon.png" type="png" sizes="32x32">
 
         <!-- Bootstrap Paper Theme -->
         <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-awusxf8AUojygHf2+joICySzB780jVvQaVCAt1clU3QsyAitLGul28Qxb2r1e5g+" crossorigin="anonymous">
@@ -43,15 +43,17 @@
 		 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
 	        <div class="container-fluid float-center">
 	            <!-- Brand and toggle get grouped for better mobile display -->
-	            <div class="navbar-header">
-	                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-	                    <span class="sr-only">Toggle navigation</span>
-	                    <span class="icon-bar"></span>
-	                    <span class="icon-bar"></span>
-	                    <span class="icon-bar"></span>
-	                </button>
-	                <a class="navbar-brand page-scroll" href="/">ASUC OCTO</a>
-	            </div>
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="/" class="navbar-brand page-scroll" id="octo">ASUC OCTO</a>
+				</div>
+
 
 	            <!-- Collect the nav links, forms, and other content for toggling -->
 	            <div class="collapse navbar-collapse child" id="bs-example-navbar-collapse-1">
@@ -68,9 +70,6 @@
 	                    <li>
 	                        <a class="page-scroll" href="/sponsorships">Sponsorships</a>
 	                    </li>
-                        <li>
-                            <a class="page-scroll" href="/events">Events</a>
-                        </li>
 	                </ul>
 	            </div>
 	            <!-- /.navbar-collapse -->
@@ -78,32 +77,14 @@
 	        <!-- /.container-fluid -->
 	    </nav>
 
-		<!-- <header>
+		<div class="cover">
+    <img id="photo" src="https://images.pexels.com/photos/206756/pexels-photo-206756.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="">
     <div class="header-content">
         <div class="header-content-inner">
-            <h1>About Us</h1>
+            <h1>About</h1>
             <hr>
-            <p>Learn about what we do.</p>
+            <p>This is how we improve students' lives.</p>
         </div>
-    </div>
-    <img src="/img/soda_hall.png" alt="soda_hall" id="video-background"/>
-</header>
-
-<section id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 text-center">
-                <h2 class="section-heading">What we do</h2>
-                <p id="about-p">The Office of the CTO was created in the Spring of 2015 in order to provide the general Berkeley community with access to more on-campus technology resources. Since our inception, we have been able to provide our fellow Bears with quality software products. Starting with just a handful of developers and a single Mobile Application that was available only on iOS, we have grown to a full-fledged division of the ASUC with over 30 talented members. Our Office currently has three products: Berkeley Mobile, BerkeleyTime, and Project Hermione. Our staff handles everything from Android, iOS, and Backend development to Marketing and Product Management. You can see the products that we currently have in production <a href="/projects">here</a>. Interested in seeing our schedule? Check out <a href="https://calendar.google.com/calendar/embed?src=asuc.org_hq9ink7h6vfdsamvj5j22diock%40group.calendar.google.com&ctz=America/Los_Angeles">this calendar</a>. Want to join our office? Learn about our recruitment process <a href="/recruitment">here</a>.
-            </div>
-        </div>
-    </div>
-</section> -->
-
-<div class="cover">
-    <img id="photo" src="https://images.pexels.com/photos/206756/pexels-photo-206756.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="">
-    <div class="header-container">
-        <h1 class="cover-text">What is ASUC OCTO?</h1>
     </div>
 </div>
 
@@ -116,16 +97,18 @@
 <div class="members">
     <div class="container">
         <div class="members-header">
-            <h1>Members</h1>
+            <h1 class="header-text">Members</h1>
             <div class="members-info">
                 <p>OCTO brings together the brightest minds who are passionate about bringing about change in the UC Berkeley Community by working with a diverse group of people of various backgrounds.</p>
             </div>
         </div>
         <div class="members-items">
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
-                        <p> Apollo  Jain</p>
+                        <p> Apollo Jain</p>
                         
                         <p> Chief Technology Officer</p>
                         <!-- <a id="linkStyle" href=mailto:apollojain@berkeley.edu>
@@ -133,9 +116,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Revati Kapshikar</p>
@@ -146,9 +131,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/RevatiKapshikar.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Maya Reddy</p>
@@ -159,9 +146,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/MayaReddy.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Akilesh Bapu</p>
@@ -172,9 +161,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/AkileshBapu.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Sampath Duddu</p>
@@ -185,9 +176,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Dennis Moon</p>
@@ -198,9 +191,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/DennisMoon.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Michael Eliot</p>
@@ -211,9 +206,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/MichaelEliot.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Ankit Patel</p>
@@ -224,9 +221,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Victor Ngo</p>
@@ -237,9 +236,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Jason Gao</p>
@@ -250,9 +251,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Sneha Sankavaram</p>
@@ -263,9 +266,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/SnehaSankavaram.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Adeel Cheema</p>
@@ -276,9 +281,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/AdeelCheema.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Alex Bondarenko</p>
@@ -289,9 +296,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Alex Thomas</p>
@@ -302,12 +311,14 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
-                        <p> Karen  Tu</p>
+                        <p> Karen Tu</p>
                         
                         <p> Backend Developer</p>
                         <!-- <a id="linkStyle" href=mailto:karentu@berkeley.edu>
@@ -315,12 +326,14 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/KarenTu.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
-                        <p> Paige  Pratt</p>
+                        <p> Paige Pratt</p>
                         
                         <p> Backend Developer</p>
                         <!-- <a id="linkStyle" href=mailto:paige.pratt@berkeley.edu>
@@ -328,9 +341,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Kaiwen Zhou</p>
@@ -341,12 +356,14 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
-                        <p> Laura  Harker</p>
+                        <p> Laura Harker</p>
                         
                         <p> Chief Engineer</p>
                         <!-- <a id="linkStyle" href=mailto:lharker@berkeley.edu>
@@ -354,12 +371,14 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
-                        <p> Eric  Huynh</p>
+                        <p> Eric Huynh</p>
                         
                         <p> Backend Lead</p>
                         <!-- <a id="linkStyle" href=mailto:ericehhuynh@berkeley.edu>
@@ -367,12 +386,14 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
-                        <p> Arvind Iyengar</p>
+                        <p> Arvind Lyengar</p>
                         
                         <p> Backend Developer</p>
                         <!-- <a id="linkStyle" href=mailto:arvindiyengar@berkeley.edu>
@@ -380,9 +401,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/ArvindLyengar.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Tony Situ</p>
@@ -393,9 +416,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/TonySitu.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Sandy Zhang</p>
@@ -406,9 +431,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/SandyZhang.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Kelvin Leong</p>
@@ -419,9 +446,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/KelvinLeong.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Justin Lu</p>
@@ -432,9 +461,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/JustinLu.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Flora Xue</p>
@@ -445,9 +476,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/FloraXue.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Scott Lee</p>
@@ -458,9 +491,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/ScottLee.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Parsa Attari</p>
@@ -471,9 +506,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/ParsaAttari.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Kevin Jiang</p>
@@ -484,9 +521,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Kimya Khoshnan</p>
@@ -497,9 +536,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Vaibhav Srikaran</p>
@@ -510,9 +551,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/VaibhavSrikaran.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Dibyo Majumdar</p>
@@ -523,9 +566,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/DibyoMajumdar.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Vignesh Muruganatham</p>
@@ -536,9 +581,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Kairui Zeng</p>
@@ -549,12 +596,14 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
-                        <p> Richard  Liu</p>
+                        <p> Richard Liu</p>
                         
                         <p> Staff Engineer</p>
                         <!-- <a id="linkStyle" href=mailto:richard.liu@berkeley.edu>
@@ -562,12 +611,14 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/RichardLiu.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
-                        <p> Zheng  Zhu</p>
+                        <p> Zheng Zhu</p>
                         
                         <p> Staff Engineer</p>
                         <!-- <a id="linkStyle" href=mailto:zhengzhu@berkeley.edu>
@@ -575,9 +626,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/ZhengZhu.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Arman Madani</p>
@@ -588,9 +641,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Alex Rakeman</p>
@@ -601,9 +656,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/AlexRakeman.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Ashley Nguyen</p>
@@ -614,9 +671,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/AshleyNguyen.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Hannah He</p>
@@ -627,12 +686,14 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/HannahHe.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
-                        <p> Trey  Lowerison</p>
+                        <p> Trey Lowerison</p>
                         
                         <p> Staff Engineer</p>
                         <!-- <a id="linkStyle" href=mailto:tlowerison@berkeley.edu>
@@ -640,12 +701,14 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/TreyLowerison.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
-                        <p> Isabelle  Ju</p>
+                        <p> Isabelle Ju</p>
                         
                         <p> Staff Engineer</p>
                         <!-- <a id="linkStyle" href=mailto:iju@berkeley.edu>
@@ -653,12 +716,14 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
-                        <p> Juno  Morey</p>
+                        <p> Juno Morey</p>
                         
                         <p> Staff Engineer</p>
                         <!-- <a id="linkStyle" href=mailto:j.morey@berkeley.edu>
@@ -666,12 +731,14 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
-                        <p> Justin  Zhong</p>
+                        <p> Justin Zhong</p>
                         
                         <p> Chief Engineer</p>
                         <!-- <a id="linkStyle" href=mailto:justin.zhong@berkeley.edu>
@@ -679,9 +746,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/JustinZhong.jpg>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Alan Rosenthal</p>
@@ -692,9 +761,11 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
+            
+                
                 <div class="member-item-container">
                     <div class="item-text">
                         <p> Alex Kierlanczyk</p>
@@ -705,7 +776,7 @@
                         </a> -->
                     </div>
                     <div class="item-overlay"></div>
-                    <img class="item-picture" src="http://www.berkeley.edu/news2/2012/11/Dirks450.jpg" alt="">
+                    <img class="item-picture" src=/img/profile/default.png>
                 </div>
             
         </div>

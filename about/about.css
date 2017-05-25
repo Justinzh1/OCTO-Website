@@ -98,12 +98,38 @@
     transition: 300ms;
 }
 
+.header-text {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .member-item-container:hover .item-overlay {
     opacity: 0.7;
 }
 
 .member-item-container:hover .item-text {
     opacity: 1;
+}
+
+.item-picture {
+    height: 100%;
+    width: auto;
+}
+
+.header-content {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.header-content-inner h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'roboto';
+    font-size: '65px';
 }
 
 #noStyle {
