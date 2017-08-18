@@ -1,6 +1,5 @@
 First,Last,Team,Position,Year,Mentor,Email,Picture
-Apollo,Jain,Administrative,Chief Technology Officer,4,a,apollojain@berkeley.edu,none
-Revati,Kapshikar,Administrative,Deputy Chief Technology Officer,3,a,rkapshikar@berkeley.edu,jpg
+Revati,Kapshikar,Administrative,Chief Technology Officer,3,a,rkapshikar@berkeley.edu,jpg
 Maya,Reddy,Berkeley Mobile,Chief Engineer,4,a,balapuri@berkeley.edu,jpg
 Akilesh,Bapu,Berkeley Mobile,iOS Lead,2,a,akilesh@berkeley.edu,png
 Sampath,Duddu,Berkeley Mobile,iOS Developer,3,a,duddus@berkeley.edu,none
@@ -43,4 +42,4 @@ Isabelle,Ju,Digital Services,Staff Engineer,1,a,iju@berkeley.edu,none
 Juno,Morey,Digital Services,Staff Engineer,3,a,j.morey@berkeley.edu,none
 Justin,Zhong,User Experience,Chief Engineer,2,a,justin.zhong@berkeley.edu,jpg
 Alan,Rosenthal,User Experience,Staff Designer,1,a,amroenthal@berkeley.edu,none
-Alex,Kierlanczyk,User Experience,Staff Designer,3,a,alkierlan@berkeley.edu,none
+Apollo,Jain,Administrative,Alumni,4,a,apollojain@berkeley.edu,none

@@ -128,7 +128,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #003262;
+    color: white;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -248,7 +248,6 @@ header .header-content .header-content-inner hr {
 }
 
 header .header-content .header-content-inner p {
-    margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
     color: rgba(255,255,255,.7);

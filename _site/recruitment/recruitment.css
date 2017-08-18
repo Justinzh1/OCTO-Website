@@ -6,3 +6,22 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+
+.recruitment {
+    width: 400px;
+    margin: 0 auto;
+    height: auto;
+    padding: 40px;
+    background: rgba(238, 238, 238, 0.9);
+}
+
+#title {
+    font-family: "Roboto";
+    font-weight: 600 !important;
+    color: black !important;
+}
+
+.desc {
+	font-weight: 400 !important;
+    color: black !important;
+}
