@@ -2,15 +2,15 @@
 	<head>
 
     	<link rel="icon" href="img/favicon.ico" type="image/gif" sizes="16x16">
-		<title>Projects</title>
+		<title>{{page.title}}</title>
 		<style>
 			h1{
 				color:blue;
 			}
 		</style>
 		<!-- Bootstrap Core CSS -->
-	    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
-	    <link rel="icon" href="../img/favicon.png" type="png" sizes="32x32">
+	    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	    <link rel="icon" href="img/favicon.png" type="png" sizes="32x32">
 
         <!-- Bootstrap Paper Theme -->
         <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-awusxf8AUojygHf2+joICySzB780jVvQaVCAt1clU3QsyAitLGul28Qxb2r1e5g+" crossorigin="anonymous">
@@ -19,24 +19,32 @@
 	    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 	    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-	    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" type="text/css">
+	    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
 	    <!-- Plugin CSS -->
-	    <link rel="stylesheet" href="../css/animate.min.css" type="text/css">
+	    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 	    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	    <!-- Custom CSS -->
-	    <link rel="stylesheet" href="../css/creative.css" type="text/css">
-	    <link rel="stylesheet" href="../css/timeline.css" type="text/css">
-	    <link rel="stylesheet" href="../css/main.css" type="text/css">
-        
-		<link rel="stylesheet" href="../projects/projects.css">
-
-        
+	    <link rel="stylesheet" href="css/creative.css" type="text/css">
+	    <link rel="stylesheet" href="css/timeline.css" type="text/css">
+	    <link rel="stylesheet" href="css/main.css" type="text/css">
+        {% if page.title == "About" %}
+        {% include about.html %}
+        {% elsif page.title == "Sponsorships" %}
+        {% include sponsorships.html %}
+        {% elsif page.title == "Events" %}
+        {% include events.html %}
+		{% elsif page.title == "Recruitment" %}
+		{% include recruitment.html %}
+		{% elsif page.title == "Projects" %}
+		{% include projects.html %}
+        {% else %}
+        {% endif %}
 	    <!-- jQuery -->
-	    <script src="../js/jquery.js"></script>
-        <script src-"../js/cldnr.min.js"></script>
+	    <script src="js/jquery.js"></script>
+        <script src-"js/cldnr.min.js"></script>
 	    <!-- Bootstrap Core JavaScript -->
-	    <script src="../js/bootstrap.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
 
 	</head>
 	<body>
@@ -77,29 +85,7 @@
 	        <!-- /.container-fluid -->
 	    </nav>
 
-		<header>
-    <div class="header-content">
-        <div class="header-content-inner">
-            <h1>Project Hermione</h1>
-            <hr>
-            <p>Learn about what we do.</p>
-        </div>
-    </div>
-    <img src="/img/eschleman.jpg" alt="eschleman_hall" id="video-background"/>
-</header>
-
-<section id="">
-    <div class="container product-page">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 text-center">
-                <h2 class="section-heading">What we do</h2>
-                <p id="about-p">Every bear has been a situation where an emergency prevents him or her from going to class. Using state-of-the-art Computer Vision technology, our software developers were able to automate the lecture recording process so that it is easier for the administration to pay for lecture casting and easier for professors to set up the process. Our hope is that we will be able help students who are in DSP or otherwise disadvantaged to view lectures that are not currently recorded by ETS. We plan on doing this by a request-based system. Check our our alpha demo <a href="https://hermione.io/">here.</a> Feel free to ping us as technology@asuc.org if you would like to give us a try!</p>
-            </div>
-        </div>
-        
-    </div>
-
-</section>
+		{{content}}
 
 		<!-- Footer -->
 	    <footer class="bg-dark">
@@ -140,13 +126,13 @@
 	        </br>
 	    </footer>
 	    <!-- Plugin JavaScript -->
-	    <script src="../js/jquery.easing.min.js"></script>
-	    <script src="../js/sweetalert.min.js"></script>
-	    <script src="../js/jquery.fittext.js"></script>
-	    <script src="../js/wow.min.js"></script>
+	    <script src="js/jquery.easing.min.js"></script>
+	    <script src="js/sweetalert.min.js"></script>
+	    <script src="js/jquery.fittext.js"></script>
+	    <script src="js/wow.min.js"></script>
 
 	    <!-- Custom Theme JavaScript -->
-	    <script src="../js/creative.js"></script>
+	    <script src="js/creative.js"></script>
 
 
 	</body>
